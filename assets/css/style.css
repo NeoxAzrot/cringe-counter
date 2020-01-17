@@ -37,3 +37,14 @@ footer {
 .counter {
     text-align: center;
 }
+
+.countdown {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #1b262c;
+    font-weight: 300;
+}
