@@ -9,6 +9,6 @@
     
     fclose($myfile);
 
-    header('Location: index');
+    header('Location: .');
 
 ?>
