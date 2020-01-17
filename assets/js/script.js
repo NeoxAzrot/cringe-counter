@@ -1,4 +1,4 @@
-$(".body").click(function() {
+$(document).click(function() {
     document.location = "addCounter.php";
 })
 
