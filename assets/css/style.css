@@ -4,6 +4,7 @@ body {
     background-color: #bbe1fa;
     overflow: hidden;
     padding: 40px;
+    cursor: pointer;
 }
 
 h1 {
