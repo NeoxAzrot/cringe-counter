@@ -19,6 +19,7 @@
         <h1>Cringe.</h1>
         <p class="countdown"></p>
         <p class="counter"><?php echo $pages_vues ?><span>/ 1000</span></p>
+        <p>bite bite bite</p>
 
         <footer>
             <p>Press « space » or touch the screen.</p>
