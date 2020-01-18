@@ -23,7 +23,8 @@ setInterval(function(){
 }, 1000);
 
 var counter = $('.counter').html();
-var last_number_counter = counter.substr(counter.length - 2);
+counter = counter.split("<span>/ 1000</span>");
+var last_number_counter = counter[0].substr(counter[0].length - 2);
 var audio = $('.myAudio');
 
 if(last_number_counter == "00") {
