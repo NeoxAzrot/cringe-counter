@@ -12,16 +12,14 @@ $(document).on('keydown',function(e) {
 })
 
 var refresh_time = 60000; // 1 minute
-var time_actual = 0;
 
 setInterval(function(){ 
-    document.location = "index.php";
-    time_actual = 0;
-}, refresh_time);
+    time_actual = new Date().getSeconds();
+    $('.countdown').text('Automatic refresh in : ' + ((refresh_time / 1000) - time_actual) + 's.');
 
-setInterval(function(){ 
-    time_actual += 1000;
-    $('.countdown').text('Automatic refresh in : ' + (refresh_time - time_actual) / 1000 + 's.');
+    if(time_actual == 59) {
+        document.location = "index.php";
+    }
 }, 1000);
 
 var counter = $('.counter').html();
