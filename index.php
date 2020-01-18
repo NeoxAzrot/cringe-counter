@@ -22,6 +22,8 @@
         <footer>
             <p>Press « space » or touch the screen.</p>
         </footer>
+
+        <div class="myAudio"></div>
         
         <script src="assets/js/script.js"></script>
     </body>

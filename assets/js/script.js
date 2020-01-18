@@ -23,3 +23,11 @@ setInterval(function(){
     time_actual += 1000;
     $('.countdown').text('Automatic refresh in : ' + (refresh_time - time_actual) / 1000 + 's.');
 }, 1000);
+
+var counter = $('.counter').html();
+var last_number_counter = counter.substr(counter.length - 2);
+var audio = $('.myAudio');
+
+if(last_number_counter == "00") {
+    audio.append("<audio src='assets/musiques/cringe.mp3' autoplay></audio>");
+}
