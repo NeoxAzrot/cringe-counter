@@ -26,6 +26,10 @@
 
         <div class="myAudio"></div>
         
+        
+
+        <?php echo 'User IP - '.$_SERVER['REMOTE_ADDR']; ?>
+        
         <script src="assets/js/script.js"></script>
     </body>
 </html>
