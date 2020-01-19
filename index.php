@@ -22,6 +22,7 @@
 
         <footer>
             <p>Press « space » or touch the screen.</p>
+            <p><?php echo 'User IP - '.$_SERVER['REMOTE_ADDR']; ?></p>
         </footer>
 
         <div class="myAudio"></div>
