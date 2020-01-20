@@ -26,10 +26,10 @@ var counter = $('.counter').html();
 counter = counter.split("<span>/ 1000</span>");
 console.log(counter);
 
-var last_number_counter = counter[0].substr(counter[0].length - 2);
+var last_number_counter = parseInt(counter[0]);
 
 var audio = $('.myAudio');
 
-if(last_number_counter == "00 ") {
+if((last_number_counter % 50) == 0) {
     audio.append("<audio src='assets/musiques/cringe.mp3' autoplay></audio>");
 }
