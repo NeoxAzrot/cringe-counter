@@ -30,6 +30,6 @@ console.log(last_number_counter);
 
 var audio = $('.myAudio');
 
-if(last_number_counter == "00") {
+if(last_number_counter == "00 ") {
     audio.append("<audio src='assets/musiques/cringe.mp3' autoplay></audio>");
 }
