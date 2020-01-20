@@ -25,6 +25,9 @@ setInterval(function(){
 var counter = $('.counter').html();
 counter = counter.split("<span>/ 1000</span>");
 var last_number_counter = counter[0].substr(counter[0].length - 2);
+
+console.log(last_number_counter);
+
 var audio = $('.myAudio');
 
 if(last_number_counter == "00") {
