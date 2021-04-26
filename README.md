@@ -1,3 +1,3 @@
 # cringe-counter
 
-Disturbing action counter during an event.
+Simply download the directory and open it in a [MAMP](https://www.mamp.info/en/downloads/) space.
